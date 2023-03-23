@@ -13,6 +13,12 @@
   }
 }
 
+body{
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Passion One', cursive;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +41,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.container  {
+  width: 100%;
+  max-width: 1278px;
+  padding: 0 80px;
+  margin: 0 auto;
 }
